@@ -104,3 +104,72 @@ h3 {
   margin: 20px auto;
   text-align: center;
 }
+
+#legacy {
+  background-color: white;
+  display: flex;
+}
+
+ .legacy-title {
+  display: inline-block;
+  color: #9C9FA6;
+  margin: 20px auto;
+}
+
+.famous-work {
+    width: 40%;
+    text-align: center;
+}
+
+.legacy-left {
+  margin: 10px 30px;
+  padding: 20px;
+  background-color: #fafafa;
+  color: #656569;
+  border: 2px solid #656569;
+  border-radius: 10px;
+}
+
+.work {
+  padding: 20px;
+  text-align: justify;
+}
+
+.work p {
+  padding-top: 20px;
+}
+
+.philosophy {
+  width: 60%;
+  background-color: #F1F1F1;
+  text-align: center;
+}
+
+.philosophies {
+  color: #656569;
+  margin: 30px auto;
+  font-size: 20px;
+}
+
+h4 ~ p {
+  text-align: justify;
+  padding: 12px 8%;
+  color: #656569;
+  font-size: 18px;
+}
+span {
+  font-weight: 600;
+}
+
+footer {
+  height: 10%;
+  background-color:  #656569;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+footer p {
+  padding: 30px 0;
+}
