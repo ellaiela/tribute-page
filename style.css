@@ -44,6 +44,10 @@ li a {
   font-weight: 550;
 }
 
+li a:hover {
+  color: #656569;
+}
+
 img {
   max-width: 100%;
   margin: 0 auto;
@@ -162,7 +166,7 @@ span {
 }
 
 footer {
-  height: 5%;
+  height: 45px;
   background-color:  #656569;
   color: white;
   text-align: center;
@@ -170,9 +174,6 @@ footer {
   overflow: hidden;
 }
 
-footer p {
-  padding: 30px 0;
-}
 
 @media only screen and (max-width: 825px) {
   html, body {
